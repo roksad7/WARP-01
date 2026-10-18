@@ -12,3 +12,4 @@ C:\Users\s37380\Projekt2\obj\Debug\net10.0\refint\Projekt2.dll
 C:\Users\s37380\Projekt2\obj\Debug\net10.0\Projekt2.pdb
 C:\Users\s37380\Projekt2\obj\Debug\net10.0\Projekt2.genruntimeconfig.cache
 C:\Users\s37380\Projekt2\obj\Debug\net10.0\ref\Projekt2.dll
+C:\Users\s37380\Projekt2\obj\Debug\net10.0\Projekt2.sourcelink.json
