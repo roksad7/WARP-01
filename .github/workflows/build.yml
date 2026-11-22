@@ -27,4 +27,3 @@ jobs:
       - name: Restore dependencies
         shell: bash
         run: dotnet restore "$PROJECT_PATH"
-     
