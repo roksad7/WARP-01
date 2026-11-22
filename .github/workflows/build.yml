@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 env:
   DOTNET_VERSION: 10.0.x
-  PROJECT_PATH: C:\Users\s37380\Projekt2\Projekt2.csproj
+  PROJECT_PATH: ./Projekt2.csproj
 jobs:
   build:
     runs-on: ubuntu-latest
