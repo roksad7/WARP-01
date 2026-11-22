@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
 env:
   DOTNET_VERSION: 10.0.x
+  PROJECT_PATH: ./src/MyApp/MyApp.csproj
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,3 +19,9 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
+      - name: Restore dependencies
+        shell: bash
+        run: dotnet restore "$PROJECT_PATH"
+      - name: Build project
+        shell: bash
+        run: dotnet build "$PROJECT_PATH" --configuration Release --no-restore
